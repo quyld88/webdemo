@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <meta name="description" content="quyld88.github.io Cổng thông tin du lịch Đà Nẵng">
+    <meta name="keywords" content=" Quyld88.github.io Du lịch Đà nẵng, Bà nà, Cầu Rồng">
+    <title>Cổng Thông Tin Du Lịch Đà Nẵng</title>
+    
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap core CSS -->
+<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <style>
+      
+
+      @media (max-width: 768px) {
+       
+        #myCarousel {
+          display: none;
+        }
+        .marketing {
+          padding-top: 3rem;
+        }
+      }
+      
+     
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Trang Chủ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+         
+          <li class="nav-item">
+            <a class="nav-link" href="Signin.html">Đăng Nhập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="album.html">Album</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Liên Hệ</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/captreobana.jpg" alt="Sontra" class="bd-placeholder-img" width="100%" height="100%">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Cáp Treo Bà Nà.</h1>
+            <p>Cáp treo Ba Na Hills xác lập kỷ lục Guinness thế giới</p>
+            <p><a class="btn btn-lg btn-primary" href="post.html">Chi Tiết</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/tuongquanam.jpg" alt="Sontra" class="bd-placeholder-img" width="100%" height="100%">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Tượng quan âm</h1>
+            <p">Chùa Linh Ứng nơi đức Phật hiển linh nhiều lần</p>
+            <p><a class="btn btn-lg btn-primary" href="post.html">Chi Tiết</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bienmykhe.jpg" alt="Sontra" class="bd-placeholder-img" width="100%" height="100%">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 style="color: brown;">Biển Mỹ Khê</h1>
+            <p style="color: brown;">1 trong những bãi biển đẹp nhất hành tinh </p>
+            <p><a class="btn btn-lg btn-primary" href="post.html">Chi Tiết</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing ">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="img/cauvang.jpg" alt=" "class="rounded-circle" width="140" height="140">
+        <h2 class="pt-3">Du Lịch</h2>
+        <p>Đà Nẵng - một trong những thành phố trực thuộc trung ương và cũng là thành phố đáng sống nhất hiện nay. </p>
+        <p><a class="btn btn-secondary" href="post.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/banh-xeo-4.jpg" alt=" "class="rounded-circle" width="140" height="140">
+
+        <h2 class="pt-3">Ăn uống</h2>
+        <p>Thành phố Đà Nẵng thực sự là thiên đàng của những tâm hồn đam mê ăn uống. Danh sách món ngon Đà Nẵng dường như dài bất tận, cứ mỗi mùa lại thêm vài món mới xuất hiện.</p>        
+        <p><a class="btn btn-secondary" href="post.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/Sontra.jpg" alt=" "class="rounded-circle" width="140" height="140">
+
+        <h2 class="pt-3">Giải Trí</h2>
+        <p>Bà Nà Hills từ lâu đã được mệnh danh như là chốn bồng lai tiên cảnh bởi vẻ đẹp của mình. Vẻ đẹp của Bà Nà không chỉ được công nhận bởi du khách trong nước mà còn có cả du khách quốc tế.</p>
+        <p><a class="btn btn-secondary" href="post.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+
+    <!-- card -->
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/cauvang.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cầu Vàng</h5>
+        <p>Đà Nẵng - một trong những thành phố trực thuộc trung ương và cũng là thành phố đáng sống nhất hiện nay. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/chualinhung.jpg" class="card-img-top" alt="chualinhung">
+      <div class="card-body">
+        <h5 class="card-title">Chùa Linh Ứng</h5>
+        <p class="card-text">Chùa Linh Ứng – Bãi Bụt, Sơn Trà, Đà Nẵng là một trong ba ngôi chùa cùng mang tên Linh Ứng ở Đà Nẵng. Không rõ là do vô tình hay do chữ duyên mà cả ba ngôi chùa đều được tọa lạc trên những vị thế đắc địa của thành phố Đà Nẵng</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/Sontra.jpg" class="card-img-top" alt="sontra">
+      <div class="card-body">
+        <h5 class="card-title">Sơn Trà</h5>
+        <p class="card-text">Bán đảo Sơn Trà nằm cách trung tâm thành phố Ðà Nẵng chừng 10 km về hướng Ðông Bắc. Sơn Trà có diện tích 60 kilômét vuông (23 dặm vuông Anh), chiều dài 13 kilômét (8,1 mi), chiều rộng 5 kilômét (3,1 mi), nơi hẹp nhất 2 kilômét (1,2 mi). Bán đảo Sơn Trà cùng với đèo Hải Vân bao bọc thành phố Đà Nẵng và vịnh Đà Nẵng.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/nhathoconga.jpg" class="card-img-top" alt="nhathoconga">
+      <div class="card-body">
+        <h5 class="card-title">Nhà thờ con gà</h5>
+        <p class="card-text">Nhà thờ Con Gà hay còn được biết với tên gọi khác như nhà thờ Thánh Tâm Chúa Giêsu, nhà thờ Tourane, nhà thờ chánh tòa Đà Nẵng hay nhà thờ chính tòa Đà Nẵng. Nhà thờ này tọa lạc trên con đường Trần Phú nhộn nhịp thuộc trung tâm của thành phố Đà Nẵng. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/captreobana.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cáp Treo Bà Nà</h5>
+        <p class="card-text">ThBà Nà là khu du lịch toạ lạc 1 khu vực thuộc về dãy núi Trường Sơn nằm ở xã Hòa Ninh, huyện Hòa Vang, cách Đà Nẵng 25 km về phía Tây Nam. Trung tâm du lịch của Bà Nà nằm trên đỉnh Núi Chúa có độ cao 1489 m so với mực nước biển.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/tuongquanam.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tượng Quan Âm</h5>
+        <p class="card-text">Tượng Phật Bà Quán Thế Âm Bồ Tát tại chùa Linh Ứng Bãi Bụt Sơn Trà có chiều cao 67m, cao nhất Việt Nam, chiều cao của tượng tương đương với một tòa nhà 30 tầng, với phong cảnh sơn thủy hiển linh. Đường kính tòa sen rộng 35m, trong lòng tượng có 17 tầng, mỗi tầng thờ 21 Đức Phật với hình dáng, vẻ mặt, tư thế khác nhau gọi là “Phật Trung Hữu Phật”. Trên mão tượng Quan Âm có tượng Phật Tổ cao 2m.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- end card -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container text-center">
+      <span class="text-muted">Copyright-duyquyarts@gmail.com</span>
+    </div>
+  </footer>
+</main>
+
+
+
+      
+  </body>
+</html>
